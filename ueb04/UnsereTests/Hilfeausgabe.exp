@@ -1,0 +1,16 @@
+Usage:
+analysehtml.sh -h | analysehtml.sh --help
+
+  prints this help and exits
+
+analysehtml.sh INPUT OPTION
+
+  provides a simple tool to analyse html-files. 
+
+  INPUT is a valid html-file to analyse.
+
+  OPTION is one of:
+
+    -s, --structure : prints the structure as defined by the html-headlines
+
+    -t, --statistic : prints the statistic concerning the documents links

@@ -1,0 +1,18 @@
+Mögliche Fälle:
+
+1: Keine txt Files im Ordner
+Verhalten: Script soll entweder eine Fehlerausgabe machen oder eine normale Ausführung nur mit einer leeren Ausgabe 
+
+2: Eine txt Datein
+Verhalten: Script soll wie "gewohnt" funktionieren und den Namen in die Datei schreiben
+
+3: Mehrere txt Datein
+Verhalten: Das Script erstellt den Ordner und schreibt in die Textdatei die Namen sortiert (Alphabetisch)
+
+4: Ordner Existiert bereits
+Verhalten: Ordner wird ersetzt
+
+5: Datei existiert bereits
+Verhalten: Datei wird ersetzt 
+
+
